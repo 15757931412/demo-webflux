@@ -3,6 +3,9 @@ package com.ppxytest.webfluxdemo.reactiveStream;
 import java.util.concurrent.Flow;
 import java.util.concurrent.SubmissionPublisher;
 
+/**
+ * <a href="https://www.bilibili.com/video/BV1r44y1s7wP?p=12&vd_source=0af0380c19af10aa0fe0446f3d3f3f79">b站</a>
+ */
 public class ReactiveProcessor extends SubmissionPublisher<String> implements Flow.Processor<String, String> {
 
     private Flow.Subscription subscription;
