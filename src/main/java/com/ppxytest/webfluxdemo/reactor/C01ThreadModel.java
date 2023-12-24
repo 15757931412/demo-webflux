@@ -29,5 +29,6 @@ public class C01ThreadModel {
 //                .subscribeOn(Schedulers.boundedElastic())
 //                .subscribe();
         Thread.sleep(1000);
+
     }
 }
